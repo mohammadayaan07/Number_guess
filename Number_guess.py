@@ -10,7 +10,7 @@ print('\tLets Play The Game')
 print('*'*50)
 
 while number_of_guesses < 3:
-    guess = int(input('enter the number:'))
+    guess = int(input('Guess the number {} Time:'.format(number_of_guesses+1)))
     number_of_guesses += 1
     if guess < number:
         print('Your guess is too low, go up a little.')
